@@ -318,7 +318,7 @@ std::vector<std::vector<int>> create_fsa()
 bool keyword_filter(std::vector<token>& v, token t, std::string text)
 {
   bool match {false};
-  if (token_map.find(text) != token_map.end())
+  if ((token_map.find(text) != token_map.end()) && (text != "delimiter") && (text != "operator") && (text != "identifier") && (text != "error"))
   {
     t.id = token_map.at(text);
     t.instance = text;
