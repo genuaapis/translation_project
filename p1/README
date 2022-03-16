@@ -1,0 +1,9 @@
+This program implements the FSA method (option 3). The FSA table is in scanner.cpp starting at line 305. The driver function is in scanner.cpp in the function scanner() starting at line 15 (or 34 to be more specific).
+
+Use commands "make" and "make clean".
+
+Invocation:
+
+./scanner
+./scanner [file]
+./scanner < [file]
