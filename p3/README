@@ -1,0 +1,11 @@
+This program implements local scoping.
+
+Use commands "make" and "make clean".
+
+Invocation:
+
+./parser
+./parser [file]
+./parser < [file]
+
+Output is found in "parser_output.txt".
